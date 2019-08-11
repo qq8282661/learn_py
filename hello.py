@@ -1,6 +1,22 @@
-import cv2
-import numpy as py
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-img = cv2.imread('eg.jpg', 0)
-cv2.imshow('image', img)
-cv2.waitKey(0)
+' a test module (模块化测试)'
+
+__author__ = 'Michael Liao'
+
+import sys
+
+
+def test():
+    args = sys.argv
+    if len(args) == 1:
+        print('Hello, world!')
+    elif len(args) == 2:
+        print('Hello, %s!' % args[1])
+    else:
+        print('Too many arguments!')
+
+
+if __name__ == '__main__':
+    test()
