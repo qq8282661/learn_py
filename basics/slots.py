@@ -2,5 +2,4 @@
 
 
 class Student(object):
-    __slots__ = ('name', 'age') #用tuple定义允许绑定属性的名称
-    
+    __slots__ = ('name', 'age')  # 用tuple定义允许绑定属性的名称

@@ -10,6 +10,8 @@ print(res)
 
 def fact(n):
     return fact_iter(n, 1)
-#python 没有尾递归优化
-res1000=fact(990)
+
+
+# python 没有尾递归优化
+res1000 = fact(990)
 print(res1000)
