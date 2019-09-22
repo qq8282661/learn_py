@@ -5,6 +5,9 @@
 
 
 class Student(object):
+    """
+     学生类
+    """
     def __init__(self, name):
         self.name = name
 
