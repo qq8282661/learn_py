@@ -42,3 +42,5 @@ def dict2student(d):
 
 rs = json.loads(js, object_hook=dict2student)
 print(rs)
+
+# 上传远程测试
